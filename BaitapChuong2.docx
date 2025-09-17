@@ -1,0 +1,72 @@
+#Bai4
+- Kiểu dữ liệu cơ bản:
+    + Số: int, float,complex
+    + Chuỗi: string
+    + Luận lý: bool
+    + NoneType: None
+- Cấu trúc dữ liệu:
+    + Danh sách
+    + Bộ (Tuple)
+    + Tập hợp (Set)
+    + Từ điển (Dictionary)
+
+#Bai5
+1. Commit Message
+    Ghi chú mô tả nội dung thay đổi khi commit.
+    Ví dụ: git commit -m "Fix login bug"
+2. Pull Request Comment
+    Bình luận khi review mã trong Pull Request.
+    Gồm: bình luận chung, bình luận từng dòng, yêu cầu thay đổi.
+3. Issue Comment
+    Ghi chú, thảo luận trong mục Issue (báo lỗi, đề xuất).
+    Có thể tag người và liên kết đến commit/PR khác.
+4. Tag Annotation
+    Ghi chú khi tạo tag (phiên bản).
+    Ví dụ: git tag -a v1.0 -m "First release"
+5. Git Notes
+    Ghi chú thêm cho commit mà không thay đổi nội dung commit.
+    Lệnh: git notes add -m "Thông tin thêm"
+6. README / Tài liệu
+    Ghi chú trong file README.md, hướng dẫn sử dụng dự án.
+
+#Bai6
+
+/: Chia thực (kết quả là float)        
+//: Chia lấy nguyên (floor division)   
+%:  Chia lấy dư (modulo) 
+**: Lũy thừa
+and: Và logic (True nếu cả hai đều True)
+or: Hoặc logic (True nếu một cái True)
+is: So sánh định danh (cùng đối tượng)
+
+#Bai7
+
+input() → Chuỗi.
+int(input()), float(input()) → Kiểu số.
+split() → Nhập nhiều giá trị.
+map() → Kết hợp chuyển kiểu.
+sys.stdin → Nhập nhiều dòng (nâng cao).
+
+#Bai8
+
+Lỗi phổ biến: Syntax, Name, Type, Value, Index, Key, ZeroDivision, Import...
+Bắt lỗi: Dùng try - except để xử lý an toàn khi có lỗi.
+Nâng cao: Kết hợp else, finally để kiểm soát luồng chương trình.
+
+#Bai9
+
+a=-13 b=4 c=1.0 d=1
+e=-2.6 f=-3 g=8.666666666666
+h=8 i=4.0 j=4 k=-0.5
+l=-0.5 m=0.9 n=0.3636363636365
+o=6.83333333 p=2.1666666666665
+q=6.83333333 r=52.5
+
+#bai10
+x+=1
+x/=2
+x-=1
+x+=y
+x-=(y+7)
+x*=2
+

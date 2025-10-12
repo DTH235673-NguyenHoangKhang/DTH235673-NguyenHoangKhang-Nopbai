@@ -1,0 +1,1 @@
+print("Những giá trị nào có thể xuất hiện trong range[0...100]: 0 99 34")

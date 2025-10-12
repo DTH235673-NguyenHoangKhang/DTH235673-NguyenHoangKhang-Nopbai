@@ -1,0 +1,1 @@
+print("lst[0]=3\nlst[3]=5\nlst[x]=1\nlst[-x]=5\nlst[x+1]=5\nlst[x]+1=6\nlst[lst[x]]=0\nlst[lst[lst[x]]]=3")

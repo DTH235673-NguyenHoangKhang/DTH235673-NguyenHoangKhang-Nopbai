@@ -1,0 +1,1 @@
+print("a=0\nwhile a<100:\n    print('*',end='')\nprint()\n#Vo han dau * duoc in ra")

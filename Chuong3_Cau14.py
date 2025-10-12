@@ -1,0 +1,1 @@
+print("Co 2000 dau * duoc in ra")

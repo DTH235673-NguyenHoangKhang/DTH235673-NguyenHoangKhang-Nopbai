@@ -1,0 +1,11 @@
+c="- Kiểu dữ liệu cơ bản:\n"
+c+="+ Số: int, float,complex\n "
+c+="+ Chuỗi: string\n"
+c+="+ Luận lý: bool\n"
+c+="+ NoneType: None\n"
+c+="- Cấu trúc dữ liệu:\n"
+c+="+ Danh sách\n"
+c+="+ Bộ (Tuple)\n"
+c+="+ Tập hợp (Set)\n"
+c+="+ Từ điển (Dictionary)"
+print(c)

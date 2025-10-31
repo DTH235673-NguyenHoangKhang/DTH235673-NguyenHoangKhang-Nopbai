@@ -8,10 +8,6 @@ def handle_ok():
     new_pass = entry_new.get()
     confirm_pass = entry_confirm.get()
     
-    # ⚠️ Lưu ý: Trong một ứng dụng thực tế, bạn sẽ kiểm tra:
-    # 1. Old Password có đúng không (so sánh với mật khẩu trong database).
-    # 2. Mật khẩu mới có đủ mạnh không.
-    
     if new_pass == confirm_pass:
         if old_pass and new_pass: # Kiểm tra không để trống
             messagebox.showinfo("Thành công", "Mật khẩu đã được thay đổi thành công!")
@@ -33,10 +29,6 @@ root.title("Enter New Password") # Đặt tiêu đề cửa sổ
 # Thiết lập padding cho cửa sổ chính
 root.config(padx=10, pady=10)
 
-# --- Tiêu đề (Header) ---
-# Tùy chọn: Thêm tiêu đề lớn nếu cần
-# header_label = Label(root, text="Enter New Password", font=('Arial', 12, 'bold'))
-# header_label.grid(row=0, column=0, columnspan=2, pady=10)
 
 # --- Khởi tạo các Nhãn (Labels) ---
 label_old = Label(root, text="Old Password:")
@@ -61,7 +53,6 @@ entry_old.grid(row=1, column=1, padx=10)
 entry_new.grid(row=2, column=1, padx=10)
 entry_confirm.grid(row=3, column=1, padx=10)
 
-# Đặt focus (con trỏ) vào ô nhập đầu tiên
 entry_old.focus_set()
 
 # --- Khung chứa các Nút lệnh (Buttons) ---

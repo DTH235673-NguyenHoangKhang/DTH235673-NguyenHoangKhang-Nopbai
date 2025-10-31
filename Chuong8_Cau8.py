@@ -33,7 +33,6 @@ def fahrenheit_to_celsius():
 root = Tk()
 root.title("Chuyển đổi Độ F sang Độ C")
 
-# Khung chính với màu nền vàng (giống đề bài)
 main_frame = Frame(root, bg='yellow', padx=20, pady=20, bd=2, relief=SOLID)
 main_frame.pack(padx=10, pady=10)
 
@@ -42,7 +41,7 @@ label_input = Label(main_frame, text="Nhập độ F", bg='yellow')
 label_input.grid(row=0, column=0, padx=5, pady=10, sticky="w")
 
 entry_f = Entry(main_frame, width=10, justify='center')
-entry_f.insert(0, "350") # Giá trị mặc định theo đề bài
+entry_f.insert(0, "350") 
 entry_f.grid(row=0, column=1, padx=5, pady=10)
 # Gán sự kiện Enter cho ô nhập liệu
 entry_f.bind("<Return>", lambda event: fahrenheit_to_celsius())

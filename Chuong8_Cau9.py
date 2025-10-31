@@ -62,11 +62,9 @@ def calculate_bmi():
 root = Tk()
 root.title("Phần mềm tính BMI")
 
-# Khung chính với màu nền vàng (giống đề bài)
 main_frame = Frame(root, bg='yellow', padx=20, pady=20, bd=2, relief=SOLID)
 main_frame.pack(padx=10, pady=10)
 
-# Định nghĩa các biến StringVar cho các ô kết quả
 bmi_var = StringVar(value="X")
 status_var = StringVar(value="")
 risk_var = StringVar(value="")
